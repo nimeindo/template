@@ -1,0 +1,235 @@
+/* Mobile */
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: #252525;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    height: 80px;
+    background-color: #171717;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DDDDDD;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #DDDDDD;
+    width: 30%;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+
+}
+
+input.form-control-sm {
+    height: 25px !important;
+    border-radius: 7;
+}
+
+/* Owl */
+.owl-carousel {
+    width: 50%;
+    background-color: #252525;
+}
+
+.owl-carousel img {
+    width: 50%;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: transparent;
+    transform: translateY(-200px);
+}
+
+.jumbotron .container {
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #DDDDDD;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Update Anime */
+.container .update-anime {
+    margin-top: -250px;
+}
+
+.update-anime h4,
+.populer-anime h4 {
+    color: #DDDDDD;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #707070;
+}
+
+.update-anime img {
+    width: 150px;
+    height: 210px;
+}
+
+.anime-inner {
+    position: relative;
+    margin: auto;
+}
+
+.anime-inner img {
+    box-shadow: -3px 3px 15px rgba(0, 0, 0, 1);
+}
+
+.text-episode {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #DDDDDD;
+    padding: 0 10px;
+}
+
+h6,
+h5,
+h2,
+h3,
+h1,
+p,
+h4 {
+    color: #DDDDDD;
+}
+
+.judul-anime {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #DDDDDD;
+    width: 150px;
+}
+
+/* Pagination */
+a.page-link {
+    font-size: 14px;
+    color: #DDDDDD;
+    background-color: #171717;
+    border: 2px solid #33312F;
+}
+
+/* Sosmed Icon */
+.fa-instagram {
+    color: #c32aa3;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+
+
+/* Iklan */
+.space-iklan {
+    background-color: #33312F;
+    height: 300px;
+}
+
+.space-iklan img {
+    width: 300px;
+    height: 250px;
+}
+
+.chat-room {
+    background-color: #33312F;
+    height: 480px;
+}
+
+.chat-room h6 {
+    margin: 10px auto auto 15px;
+}
+
+.chat-room img {
+    padding-top: 5px;
+    width: 350px;
+    height: 450px;
+}
+
+.figure img {
+    margin-top: 10px;
+    height: 260px;
+    width: 200px;
+    box-shadow: -3px 3px 15px rgba(0, 0, 0, 1);
+}
+
+.figure-caption h6 {
+    padding-left: 25px;
+}
+
+.figure-caption p {
+    padding-left: 25px;
+    color: #707070;
+    font-size: 12px;
+}
+
+.sec-footer {
+    border-top: 2px solid #707070;
+}
+
+.footer-brand img {
+    width: 500px !important;
+}
+
+.bot-nav {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DDDDDD;
+}
+
+.bot-nav .nav-link {
+    padding-right: 0;
+}
+
+.sec-footer p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.bot-icon {
+    margin-top: -50px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #171717;
+}
+
+footer p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Desktop  */
+@media (min-width: 992px) {}

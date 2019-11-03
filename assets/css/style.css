@@ -1,4 +1,4 @@
-/* Mobile */
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -8,7 +8,6 @@ body {
 
 /* Navbar */
 .navbar {
-    height: 80px;
     background-color: #171717;
 }
 
@@ -35,7 +34,6 @@ input.form-control-sm {
 
 /* Owl */
 .owl-carousel {
-    width: 50%;
     background-color: #252525;
 }
 
@@ -46,7 +44,6 @@ input.form-control-sm {
 /* Jumbotron */
 .jumbotron {
     background: transparent;
-    transform: translateY(-200px);
 }
 
 .jumbotron .container {
@@ -231,5 +228,62 @@ footer p {
     font-weight: 300;
 }
 
-/* Desktop  */
-@media (min-width: 992px) {}
+.carousel-heider{
+    width: 100%;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .carousel-heider{
+        width: 100%;
+        padding-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .owl-carousel {
+        background-color: #252525;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 600px) {
+    
+    .owl-carousel.owl-loaded {
+        display: none;
+    }
+    
+  }

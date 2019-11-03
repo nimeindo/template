@@ -75,7 +75,12 @@ input.form-control-sm {
     padding-bottom: 10px;
     border-bottom: 2px solid #707070;
 }
-
+.ongoing-anime h4 {
+    padding-top: 30px;
+    color: #DDDDDD;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #707070;
+}
 .update-anime img {
     width: 150px;
     height: 210px;
@@ -282,6 +287,9 @@ footer p {
   
   @media (max-width: 600px) {
     .owl-carousel.owl-loaded {
+        display: none;
+    }
+    .ongoing-anime h4 {
         display: none;
     }
     

@@ -75,7 +75,12 @@ input.form-control-sm {
     padding-bottom: 10px;
     border-bottom: 2px solid #707070;
 }
-
+.ongoing-anime h4 {
+    padding-top: 30px;
+    color: #DDDDDD;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #707070;
+}
 .update-anime img {
     width: 150px;
     height: 210px;
@@ -257,38 +262,34 @@ footer p {
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
     .carousel-heider{
         width: 100%;
         padding: 20px 10px 5px 5px;
         margin-right: auto;
         margin-left: auto;
     }
-    
   }
   
   /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
   @media (min-width: 481px) and (max-width: 767px) {
-    
     .owl-carousel {
         background-color: #252525;
     }
   }
-  
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
   
   @media (max-width: 600px) {
-    
     .owl-carousel.owl-loaded {
+        display: none;
+    }
+    .ongoing-anime h4 {
         display: none;
     }
     

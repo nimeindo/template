@@ -257,37 +257,30 @@ footer p {
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
     .carousel-heider{
         width: 100%;
         padding: 20px 10px 5px 5px;
         margin-right: auto;
         margin-left: auto;
     }
-    
   }
   
   /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
   @media (min-width: 481px) and (max-width: 767px) {
-    
     .owl-carousel {
         background-color: #252525;
     }
   }
-  
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
   
   @media (max-width: 600px) {
-    
     .owl-carousel.owl-loaded {
         display: none;
     }

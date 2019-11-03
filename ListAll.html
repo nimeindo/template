@@ -58,14 +58,21 @@
             </div>
         </nav>
         <!-- Navbar -->
-        <!-- Carousel -->
         <div class="container">
-            <div class="owl-carousel ">
+                
+        </div>
+        <!-- Carousel -->
+        <div class="container ">
+            <div class="text-center populer-anime">
+                <h4> Anime Ongoing</h4>
+            </div>
+            
+            <div class="owl-carousel">
                 <div class="carousel-heider">
-                    <img src="assets/img/slide/4.PNG" class="img-fluid">
+                    <img src="assets/img/slide/4.PNG" class="">
                 </div>
                 <div class="carousel-heider">
-                    <img src="assets/img/slide/4.PNG" class="img-fluid">
+                    <img src="assets/img/slide/4.PNG" class="">
                 </div>
             </div>
         </div>
@@ -271,32 +278,17 @@
         <script src="assets/js/all.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
     
+        
         <script>
-            $(document).ready(function () {
-                $(".owl-carousel").owlCarousel();
+           var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items:4,
+                loop:true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:10000,
+                autoplayHoverPause:true
             });
-        </script>
-        <script>
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 3,
-                        nav: false
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: true
-                    }
-                }
-            })
         </script>
     </body>
     

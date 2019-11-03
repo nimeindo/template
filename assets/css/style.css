@@ -38,7 +38,7 @@ input.form-control-sm {
 }
 
 .owl-carousel img {
-    width: 50%;
+    width: 30%;
 }
 
 /* Jumbotron */
@@ -70,6 +70,7 @@ input.form-control-sm {
 
 .update-anime h4,
 .populer-anime h4 {
+    padding-top: 30px;
     color: #DDDDDD;
     padding-bottom: 10px;
     border-bottom: 2px solid #707070;
@@ -230,7 +231,7 @@ footer p {
 
 .carousel-heider{
     width: 100%;
-    padding-top: 20px;
+    padding: 20px 10px 5px 5px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -245,7 +246,7 @@ footer p {
     
     .carousel-heider{
         width: 100%;
-        padding-top: 20px;
+        padding: 20px 10px 5px 5px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -259,7 +260,12 @@ footer p {
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
-    /* CSS */
+    .carousel-heider{
+        width: 100%;
+        padding: 20px 10px 5px 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
   }
   
@@ -280,7 +286,7 @@ footer p {
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 600px) {
+  @media (max-width: 600px) {
     
     .owl-carousel.owl-loaded {
         display: none;

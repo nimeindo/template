@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-color: #252525;
+    background-color: rgb(46, 48, 53);
     overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ input.form-control-sm {
 
 /* Owl */
 .owl-carousel {
-    background-color: #252525;
+    background: transparent;
 }
 
 .owl-carousel img {
@@ -43,7 +43,8 @@ input.form-control-sm {
 
 /* Jumbotron */
 .jumbotron {
-    background: transparent;
+    background: rgb(60, 60, 60);
+    border: 2px solid rgb(156, 155, 155);
 }
 
 .jumbotron .container {
@@ -113,6 +114,19 @@ p,
 h4 {
     color: #DDDDDD;
 }
+ .list-title{
+    color: rgb(252, 205, 85);
+    font-size: 25px;
+    border-top:0;
+    /* border-bottom: 2px solid #ffffff; */
+}
+.borderless td, .borderless th {
+    border: none;
+}
+table a{
+    color: #DDDDDD;
+}
+
 
 .judul-anime {
     position: absolute;
@@ -194,6 +208,7 @@ a.page-link {
 }
 
 .sec-footer {
+    background: rgb(60, 60, 60);
     border-top: 2px solid #707070;
 }
 
@@ -216,7 +231,7 @@ a.page-link {
     margin-left: 10px;
     font-size: 14px;
     font-weight: 300;
-    color: #707070;
+    color: #faf6f6;
 }
 
 .bot-icon {
@@ -224,7 +239,6 @@ a.page-link {
 }
 
 footer {
-    margin-top: 30px;
     background-color: #171717;
 }
 
@@ -276,9 +290,7 @@ footer p {
     ##Screen = B/w 481px to 767px
   */
   @media (min-width: 481px) and (max-width: 767px) {
-    .owl-carousel {
-        background-color: #252525;
-    }
+    
   }
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -286,11 +298,5 @@ footer p {
   */
   
   @media (max-width: 600px) {
-    .owl-carousel.owl-loaded {
-        display: none;
-    }
-    .ongoing-anime h4 {
-        display: none;
-    }
     
   }

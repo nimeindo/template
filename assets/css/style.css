@@ -66,7 +66,7 @@ input.form-control-sm {
 
 /* Update Anime */
 .container .update-anime {
-    margin-top: -250px;
+    margin-top: 0px;
 }
 
 .update-anime h4,
@@ -212,9 +212,9 @@ a.page-link {
     border-top: 2px solid #707070;
 }
 
-.footer-brand img {
-    width: 500px !important;
-}
+/* .footer-brand img {
+    width: 500px ;
+} */
 
 .bot-nav {
     font-size: 14px;
@@ -256,6 +256,9 @@ footer p {
     margin-right: auto;
     margin-left: auto;
 }
+.image-footer{
+    width: 500px;
+}
 
   
   /* 
@@ -271,6 +274,9 @@ footer p {
         margin-right: auto;
         margin-left: auto;
     }
+    .image-footer{
+        width: 500px;
+    }
     
   }
   
@@ -284,6 +290,9 @@ footer p {
         padding: 20px 10px 5px 5px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .image-footer{
+        width: 500px;
     }
     .nav-link {
         display: block;
@@ -303,9 +312,16 @@ footer p {
     ##Screen = B/w 481px to 767px
   */
   @media (min-width: 481px) and (max-width: 767px) {
-    .nav-link {
+    /* .nav-link {
         display: block;
         padding: 0.5rem 3rem;
+    } */
+    .bot-icon {
+        margin-top: 0px;
+        padding-right: 14px;
+    }
+    .link-footer{
+        display: none !important;
     }
     .nav{
         display: flex;
@@ -314,6 +330,9 @@ footer p {
         margin-bottom: 119px;
         list-style: none;
     }
+    .image-footer{
+        width: 500px;
+    }
   }
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -321,6 +340,20 @@ footer p {
   */
   
   @media (max-width: 600px) {
+    /* .lorem-footer{
+        display: none;
+    } */
+    .bot-icon {
+        margin-top: 0px;
+        padding-right: 14px;
+    }
+    .link-footer{
+        display: none !important;
+    }
+    .image-footer{
+        height: 119px;
+    }
+    
     .nav{
         display: flex;
         flex-wrap: wrap;

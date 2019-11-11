@@ -179,11 +179,14 @@ a.page-link {
 
 .chat-room {
     background-color: #33312F;
-    height: 480px;
+    margin-right: 13%;
+    padding-top: 3%;
+    text-align: center;
+    
 }
 
 .chat-room h6 {
-    margin: 10px auto auto 15px;
+    margin-bottom: 16px;
 }
 
 .chat-room img {
@@ -291,8 +294,6 @@ footer p {
   
   @media (min-width: 1028px) and (max-width: 1259px) {
     
-
-    
     .judul-anime {
         position: absolute;
         bottom: 0;
@@ -329,6 +330,13 @@ footer p {
         background-color: rgba(0, 0, 0, 0.7);
         color: #DDDDDD;
         width: 80%;
+    }
+    .chat-room {
+        background-color: #33312F;
+        margin-right: 13%;
+        padding-top: 3%;
+        text-align: center;
+        
     }
   }
   
@@ -367,6 +375,13 @@ footer p {
     }
     .update-anime img{
         width: 105%;
+    }
+    .chat-room {
+        background-color: #33312F;
+        margin-right: -43px;
+        padding-top: 3%;
+        text-align: center;
+        
     }
   }
   
@@ -414,6 +429,9 @@ footer p {
         background-color: rgba(0, 0, 0, 0.7);
         color: #DDDDDD;
         padding: 0 10px;
+    }
+    .chat-room {
+        display: none;
     }
   }
   /* 
@@ -468,6 +486,10 @@ footer p {
         color: #DDDDDD;
         padding: 0 10px;
     }
+
+    .chat-room {
+        display: none;
+    }
   }
   
 
@@ -475,6 +497,9 @@ footer p {
         /* .lorem-footer{
             display: none;
         } */
+        .chat-room {
+            display: none;
+        }
         .bot-icon {
             margin-top: 0px;
             padding-right: 14px;
@@ -521,6 +546,9 @@ footer p {
         /* .lorem-footer{
             display: none;
         } */
+        .chat-room {
+            display: none;
+        }
         .bot-icon {
             margin-top: 0px;
             padding-right: 14px;
@@ -568,6 +596,9 @@ footer p {
     /* .lorem-footer{
         display: none;
     } */
+    .chat-room {
+        display: none;
+    }
     .bot-icon {
         margin-top: 0px;
         padding-right: 14px;

@@ -72,6 +72,9 @@ input.form-control-sm {
     padding-left: 20px;
     padding-right: 20px;
 }
+.stream{
+    background: #1d1c1c;
+}
 
 
 /* Update Anime */
@@ -442,6 +445,9 @@ footer p {
     .chat-room {
         display: none;
     }
+    .image-slider{
+        display: none;
+     }
   }
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -499,6 +505,9 @@ footer p {
     .chat-room {
         display: none;
     }
+    .image-slider{
+        display: none;
+     }
   }
   
 
@@ -550,6 +559,9 @@ footer p {
             color: #DDDDDD;
             padding: 0 10px;
         }
+        .image-slider{
+            display: none;
+         }
     }
     @media (max-width: 400px) {
         /* .lorem-footer{
@@ -599,6 +611,9 @@ footer p {
             color: #DDDDDD;
             padding: 0 10px;
         }
+        .image-slider{
+            display: none;
+         }
     
   }
   @media (max-width: 390px) {
@@ -648,6 +663,9 @@ footer p {
         background-color: rgba(0, 0, 0, 0.7);
         color: #DDDDDD;
         padding: 0 10px;
+    }
+    .image-slider{
+       display: none;
     }
 
 }

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/slider.min.js"></script>
+    
     
     
     <title>nanimeindo</title>
@@ -84,7 +84,7 @@
             
         </div>
     </div>
-
+ 
     <!-- Jumbotron -->
 
     <!-- Content -->
@@ -92,15 +92,42 @@
         <div class="update-anime">
             <div class="row stream">
                 <div class="col-md-8 col-lg-8">
-                    <h4>Judul Anime-Episode</h4>
-                    <div class="jumbotron update-anime">
-                        
-                        <!-- Baris 1 -->
-                        <div class="row ">
-                            
-
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-lg navbar-server navbar-dark ">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Server 1 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Server 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Server 3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Server 4</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </nav>
                         </div>
                         
+                    </div>
+
+                    <div class="video-streaming">
+                        <div id="BtnPlayVideo" onclick="BtnPlayVideo()">
+                            <img id="PlayButton" src="assets/img/PlayButton.PNG" alt="">
+                            <img id="imagePlay"src="https://image.tmdb.org/t/p/w780/r1jOpRyqP5pKkvZvaiCXVJ5RYOa.jpg" alt="">
+                        </div>
+                        <div id="PlayVideoShow">
+                            <iframe src="https://uservideo.xyz/file/nanime.bnha.s4.05.480p.mp4?embed=true&autoplay=true" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
 
@@ -111,10 +138,13 @@
                             <img src="assets/img/iklan.png">
                         </div>
                     </div> -->
-                    <div class="chat-room mt-3">
-                        <h6>CHATROOM</h6>
-                        <div class="chat-script-desktop">
-                            <!-- <script id="cid0020000234317034312" data-cfasync="false" async src="http://st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"nime-indo","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script> -->
+                    <div class="sinopsis-streaming">
+                        <h6>Judul anime</h6>
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione odio, voluptatem necessitatibus quisquam excepturi enim nemo ea in atque a labore? Soluta praesentium autem est labore omnis? Sequi, magni?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione odio, voluptatem necessitatibus quisquam excepturi enim nemo ea in atque a labore? Soluta praesentium autem est labore omnis? Sequi, magni?</p>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Laporan</button>
                         </div>
                         
                     </div>
@@ -236,6 +266,19 @@
     <!-- Font awesome JS -->
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- video streaming show -->
+    <script>
+        $(document).ready(function(){
+        $("#hide").click(function(){
+            $("BtnPlayVideo").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
+        });
+    </script>
+
+
     <!-- chatroom -->
     <script>
         var options = { $AutoPlay: 1 };

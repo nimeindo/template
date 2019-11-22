@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/slider.min.js"></script>
+    
     
     
     <title>nanimeindo</title>
@@ -36,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Anime Ongoing</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">List Anime</a>
+                    <a class="nav-link" href="ListAll.html">List Anime</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Genre List</a>
@@ -84,22 +84,70 @@
             
         </div>
     </div>
-
+ 
     <!-- Jumbotron -->
 
     <!-- Content -->
     <div class="container">
         <div class="update-anime">
+            <h4>Judul Anime - Episode</h4>
             <div class="row stream">
                 <div class="col-md-8 col-lg-8">
-                    <h4>Judul Anime-Episode</h4>
-                    <div class="jumbotron update-anime">
-                        
-                        <!-- Baris 1 -->
-                        <div class="row ">
-                            
-
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-lg navbar-server navbar-dark ">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                <li class="nav-item active" onclick="changeServer('https://gdriveplayer.us/embed2.php?link=bfhFMyd6G%252BTAzImL2pKMWgec1mphrSmsmksk9SesWWJgmBG6DCzEtA5YicGGKvzcPFLxatQ76wkwsJAolb%252FKk3kenc3bteYwgm6vubkJDLB%252FuZizG1wBOkQEYrsnWXTbYg1KLI13OtCXsFm%252BHQMve5Sehm9U0BTUBLt4En32SZUKZbRBRifc9UyoH%252FfGbh6waRD%252B6Q7abZHUoE61FUQcHn&quot')">
+                                    <a class="nav-link" href="#">Server 1</a>
+                                </li>
+                                <li class="nav-item" onclick="changeServer('')">
+                                    <a class="nav-link" href="#">Server 2</a>
+                                </li>
+                                <li class="nav-item" onclick="changeServer('')">
+                                    <a class="nav-link" href="#">Server 3</a>
+                                </li>
+                                <li class="nav-item" onclick="changeServer('')">
+                                    <a class="nav-link" href="#">Server 4</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </nav>
                         </div>
+                        
+                    </div>
+
+                    <div class="video-streaming">
+                        <div class="col-md-12">
+                            <div id="BtnPlayVideo" onclick="BtnPlayVideo()">
+                                <img id="PlayButton" src="assets/img/PlayButton.PNG" alt="">
+                                <img id="imagePlay"src="https://image.tmdb.org/t/p/w780/r1jOpRyqP5pKkvZvaiCXVJ5RYOa.jpg" alt="">
+                                
+                            </div>
+                            <div id="PlayVideoShow">
+                                <iframe id="videoPlay" src="" frameborder="0"  ></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row btn-list-episode">
+                        <div class="col-md-4 col-sm-2 col-2 col-btn-lsit-episode" >
+                            <button class="btn btn-secondary"><i class="fas fa-bars fa-1x"></i></button>    
+                        </div>
+                        <div class="col-md-8 col-sm-10 col-10">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#"> <i class="fa fa-chevron-left"></i> Previous</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Episode Now</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-chevron-right"></i> </a></li>
+                                </ul>
+                            </nav>  
+                        </div>
+                        
                         
                     </div>
                 </div>
@@ -111,12 +159,42 @@
                             <img src="assets/img/iklan.png">
                         </div>
                     </div> -->
-                    <div class="chat-room mt-3">
+                    <div class="sinopsis-streaming">
+                        <h6>Judul anime</h6>
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione odio, voluptatem necessitatibus quisquam excepturi enim nemo ea in atque a labore? Soluta praesentium autem est labore omnis? Sequi, magni?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione odio, voluptatem necessitatibus quisquam excepturi enim nemo ea in atque a labore? Soluta praesentium autem est labore omnis? Sequi, magni?</p>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Laporan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- kolom komentar -->
+            
+            <div class="row komentar">
+                <div class="col-md-8 col-lg-8">
+                    <h4>Katakan Sesuatu</h4>
+                    <div class="video-streaming ">
+                        
+                        <div class="col-md-12">
+                            <h1>Komentar</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    
+                    <!-- <div class="row space-iklan mt-3">
+                        <div class="col d-flex justify-content-center align-self-center">
+                            <img src="assets/img/iklan.png">
+                        </div>
+                    </div> -->
+                    <div class="sinopsis-streaming">
                         <h6>CHATROOM</h6>
                         <div class="chat-script-desktop">
-                            <!-- <script id="cid0020000234317034312" data-cfasync="false" async src="http://st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"nime-indo","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script> -->
+                            <script id="cid0020000234317034312" data-cfasync="false" async src="http://st.chatango.com/js/gz/emb.js" style="width: 100%;height: 350px;">{"handle":"nime-indo","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -206,10 +284,10 @@
         <div class="row">
             <div class="col text-right">
                 <div class="ico-sosmed bot-icon ">
-                    <a href="" class="ml-2"><i class="fab fa-instagram fa-2x"></i></a>
+                    <!-- <a href="" class="ml-2"><i class="fab fa-instagram fa-2x"></i></a>
                     <a href="" class="ml-2"><i class="fab fa-facebook fa-2x"></i></a>
                     <a href="" class="ml-2"><i class="fab fa-twitter fa-2x"></i></a>
-                    <a href="" class="ml-2"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="" class="ml-2"><i class="fab fa-youtube fa-2x"></i></a> -->
                 </div>
             </div>
         </div>
@@ -236,6 +314,23 @@
     <!-- Font awesome JS -->
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- video streaming show -->
+    <script>
+        function BtnPlayVideo(){
+            $("#BtnPlayVideo").hide();
+            $('#PlayVideoShow').toggle('show');
+            $('#videoPlay').attr('src', 'https://uservideo.xyz/file/nanime.bnha.s4.05.480p.mp4?embed=true&autoplay=true');
+            // document.getElementById("PlayVideoShow").style.display = "block";
+        }
+        function changeServer(src){
+            $("#BtnPlayVideo").hide();
+            $('#PlayVideoShow').toggle('show');
+            $('#videoPlay').attr('src', src);
+            // alert("hello");
+        }
+    </script>
+
+
     <!-- chatroom -->
     <script>
         var options = { $AutoPlay: 1 };

@@ -55,10 +55,33 @@
             </form>
         </div>
     </nav>
+    
     <!-- Navbar slider-->
     <div class="container ">
-        <div class="image-slider">
-            <img src="assets/img/cover.jpg" alt>
+        <div class="text-center ongoing-anime">
+            <h4> Anime Ongoing</h4>
+        </div>
+        
+        <div class="owl-carousel">
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            <div class="carousel-heider">
+                <img src="assets/img/slide/4.PNG" class="">
+            </div>
+            
         </div>
     </div>
 
@@ -69,7 +92,7 @@
         <div class="update-anime">
             <div class="row">
                 <div class="col-md-8 col-lg-8">
-                    <h4>Update Episode</h4>
+                    <h4>Detail Anime</h4>
                     <div class="jumbotron update-anime">
                         
                         <!-- Baris 1 -->
@@ -282,6 +305,40 @@
     <!-- Font awesome JS -->
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+            var owl = $('.owl-carousel');
+             owl.owlCarousel({
+                 items:4,
+                 loop:true,
+                 margin:10,
+                 autoplay:true,
+                 autoplayTimeout:10000,
+                 autoplayHoverPause:true,
+                 responsiveClass:true,
+                 responsive:{
+                     0:{
+                         items:2,
+                         nav:false
+                     },
+                     400:{
+                         items:2,
+                         nav:false
+                     },
+                     600:{
+                         items:3,
+                         nav:false
+                     },
+                     767:{
+                         items:4,
+                         nav:false
+                     },
+                     1000:{
+                         items:7,
+                         nav:true,
+                     }
+                 }
+             });
+         </script>
     
 </body>
 

@@ -11,12 +11,64 @@ body {
     background-color: #171717;
 }
 
+.btn-list-episode{
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 3%;
+}
+.col-btn-lsit-episode{
+    padding-left: 0% !important;
+    padding-right: 24% !important;
+    max-width: 0% !important;
+}
+
 .nav-link {
     font-size: 14px;
     font-weight: 400;
     color: #DDDDDD;
 }
+.video-streaming{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #424140;
+    padding: 3% 1% 1% 1% !important;
+    
+}
+#BtnPlayVideo{
+    cursor: pointer;
+}
+.video-streaming #PlayButton{
+    left: 42%;
+    top: 37%;
+    width: 140px;
+    height: 138px;
+    cursor: pointer;
+    position: absolute;
+}
+.video-streaming #PlayVideoShow{
+    /* position: absolute; */
+    top: 0%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
+    position: relative;
+    display: none;
+    background: #171717;
+    
+}
+.video-streaming iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+}
 
+    
+.video-streaming #imagePlay{
+    width: 100% !important;
+    cursor: pointer;
+    
+}
     
 .image-slider{
     padding-top: 3%;
@@ -74,6 +126,26 @@ input.form-control-sm {
 }
 .stream{
     background: #1d1c1c;
+}
+.navbar-server{
+    background: #424140;
+    margin: 10px 0% 0% 0%;
+    padding: 0 !important;
+}
+.sinopsis-streaming{
+    margin-top: 18%;
+    margin-bottom: 18%;
+    background-color: #424140;
+    padding: 13% 3% 3% 3%;
+    
+}
+.sinopsis-streaming p{
+    font-size: 11px;
+}
+.sinopsis-streaming button{
+    border-radius: 29px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 
@@ -156,7 +228,7 @@ a.page-link {
     font-size: 14px;
     color: #DDDDDD;
     background-color: #171717;
-    border: 2px solid #33312F;
+    border: 2px solid #424140;
 }
 
 /* Sosmed Icon */
@@ -180,7 +252,7 @@ a.page-link {
 
 /* Iklan */
 .space-iklan {
-    background-color: #33312F;
+    background-color: #424140;
     height: 300px;
 }
 
@@ -190,10 +262,11 @@ a.page-link {
 }
 
 .chat-room {
-    background-color: #33312F;
+    background-color: #424140;
     margin-right: 13%;
     padding-top: 3%;
     text-align: center;
+    margin-top: 3rem!important;
     
 }
 
@@ -253,7 +326,8 @@ a.page-link {
 
 .bot-icon {
     margin-top: -50px;
-    padding-right: 14px;
+    padding-top: 3%;
+    padding-right: 7%;
     
 }
 
@@ -295,6 +369,28 @@ footer p {
         color: #DDDDDD;
         padding: 0 10px;
     }
+    .sinopsis-streaming{
+        margin-top: 18%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 39%;
+        top: 32%;
+        width: 140px;
+        height: 138px;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .col-btn-lsit-episode{
+        padding-left: 0% !important;
+        padding-right: 21% !important;
+        max-width: 0% !important;
+    }
+    
         
   }
   
@@ -314,6 +410,29 @@ footer p {
         color: #DDDDDD;
         width: 80%;
     }
+    
+    .sinopsis-streaming{
+        margin-top: 21%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 39%;
+        top: 32%;
+        width: 140px;
+        height: 138px;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .col-btn-lsit-episode{
+        padding-left: 0% !important;
+        padding-right: 21% !important;
+        max-width: 0% !important;
+    }
+    
   }
   
   /* 
@@ -344,12 +463,35 @@ footer p {
         width: 80%;
     }
     .chat-room {
-        background-color: #33312F;
+        background-color: #424140;
         margin-right: 13%;
         padding-top: 3%;
         text-align: center;
+        margin-top: 3rem!important;
         
     }
+    .sinopsis-streaming{
+        margin-top: 18%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 35%;
+        top: 27%;
+        width: 133px;
+        height: 127px;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .col-btn-lsit-episode{
+        padding-left: 1% !important;
+        padding-right: 20% !important;
+        max-width: 0% !important;
+    }
+    
   }
   
   /* 
@@ -389,12 +531,34 @@ footer p {
         width: 105%;
     }
     .chat-room {
-        background-color: #33312F;
+        background-color: #424140;
         margin-right: -43px;
         padding-top: 3%;
         text-align: center;
+        margin-top: 3rem!important;
         
     }
+    .sinopsis-streaming{
+        margin-top: 28%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 35%;
+        top: 27%;
+        width: 133px;
+        height: 127px;
+        cursor: pointer;
+        position: absolute;
+    }
+    .col-btn-lsit-episode{
+        padding-left: 1% !important;
+        padding-right: 20% !important;
+        max-width: 0% !important;
+    }
+    
   }
   
   /* 
@@ -448,6 +612,27 @@ footer p {
     .image-slider{
         display: none;
      }
+     .sinopsis-streaming{
+        margin-top: 14%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 36%;
+        top: 31%;
+        width: 140px;
+        height: 138px;
+        cursor: pointer;
+        position: absolute;
+    }
+    .col-btn-lsit-episode{
+        padding-left: 1% !important;
+        padding-right: 12% !important;
+        max-width: 0% !important;
+    }
+    
   }
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -508,6 +693,27 @@ footer p {
     .image-slider{
         display: none;
      }
+     .sinopsis-streaming{
+        margin-top: 14%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 35%;
+        top: 27%;
+        width: 140px;
+        height: 138px;
+        cursor: pointer;
+        position: absolute;
+    }
+    .col-btn-lsit-episode{
+        padding-left: 1% !important;
+        padding-right: 12% !important;
+        max-width: 0% !important;
+    }
+    
   }
   
 
@@ -562,6 +768,28 @@ footer p {
         .image-slider{
             display: none;
          }
+
+         .sinopsis-streaming{
+            margin-top: 14%;
+            margin-bottom: 18%;
+            background-color: #424140;
+            padding: 6% 3% 3% 3%;
+            
+        }
+        .video-streaming #PlayButton {
+            left: 33%;
+            top: 20%;
+            width: 29%;
+            height: 42%;
+            cursor: pointer;
+            position: absolute;
+        }
+        .col-btn-lsit-episode{
+            padding-left: 2% !important;
+            padding-right: 12% !important;
+            max-width: 0% !important;
+        }
+        
     }
     @media (max-width: 400px) {
         /* .lorem-footer{
@@ -614,6 +842,26 @@ footer p {
         .image-slider{
             display: none;
          }
+         .sinopsis-streaming{
+            margin-top: 14%;
+            margin-bottom: 18%;
+            background-color: #424140;
+            padding: 6% 3% 3% 3%;
+            
+        }
+        .video-streaming #PlayButton {
+            left: 37%;
+            top: 34%;
+            width: 23%;
+            height: 24%;
+            cursor: pointer;
+            position: absolute;
+        }
+        .col-btn-lsit-episode{
+            padding-left: 2% !important;
+            padding-right: 12% !important;
+            max-width: 0% !important;
+        }
     
   }
   @media (max-width: 390px) {
@@ -667,5 +915,26 @@ footer p {
     .image-slider{
        display: none;
     }
+    .sinopsis-streaming{
+        margin-top: 14%;
+        margin-bottom: 18%;
+        background-color: #424140;
+        padding: 6% 3% 3% 3%;
+        
+    }
+    .video-streaming #PlayButton {
+        left: 37%;
+        top: 25%;
+        width: 23%;
+        height: 36%;
+        cursor: pointer;
+        position: absolute;
+    }
+    .col-btn-lsit-episode{
+        padding-left: 2% !important;
+        padding-right: 12% !important;
+        max-width: 0% !important;
+    }
+    
 
 }

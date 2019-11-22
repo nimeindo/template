@@ -90,6 +90,7 @@
     <!-- Content -->
     <div class="container">
         <div class="update-anime">
+            <h4>Judul Anime - Episode</h4>
             <div class="row stream">
                 <div class="col-md-8 col-lg-8">
                     <div class="row text-center">
@@ -101,8 +102,8 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Server 1 <span class="sr-only">(current)</span></a>
+                                <li class="nav-item active" onclick="changeServer('https://gdriveplayer.us/embed2.php?link=bfhFMyd6G%252BTAzImL2pKMWgec1mphrSmsmksk9SesWWJgmBG6DCzEtA5YicGGKvzcPFLxatQ76wkwsJAolb%252FKk3kenc3bteYwgm6vubkJDLB%252FuZizG1wBOkQEYrsnWXTbYg1KLI13OtCXsFm%252BHQMve5Sehm9U0BTUBLt4En32SZUKZbRBRifc9UyoH%252FfGbh6waRD%252B6Q7abZHUoE61FUQcHn&quot')">
+                                    <a class="nav-link" href="#">Server 1</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Server 2</a>
@@ -128,9 +129,26 @@
                                 
                             </div>
                             <div id="PlayVideoShow">
-                                <iframe src="https://uservideo.xyz/file/nanime.bnha.s4.05.480p.mp4?embed=true&autoplay=true" frameborder="0"  ></iframe>
+                                <iframe id="videoPlay" src="" frameborder="0"  ></iframe>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="row btn-list-episode">
+                        <div class="col-md-4 col-sm-2 col-2 col-btn-lsit-episode" >
+                            <button class="btn btn-secondary"><i class="fas fa-bars fa-1x"></i></button>    
+                        </div>
+                        <div class="col-md-8 col-sm-10 col-10">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#"> <i class="fa fa-chevron-left"></i> Previous</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Episode Now</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-chevron-right"></i> </a></li>
+                                </ul>
+                            </nav>  
+                        </div>
+                        
+                        
                     </div>
                 </div>
 
@@ -149,7 +167,33 @@
                             <br>
                             <button type="button" class="btn btn-lg btn-block btn-outline-warning">Laporan</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- kolom komentar -->
+            <div class="row komentar">
+                <div class="col-md-8 col-lg-8">
+                    <h4>Katakan Sesuatu</h4>
+                    <div class="video-streaming ">
                         
+                        <div class="col-md-12">
+                            <h1>Komentar</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    
+                    <!-- <div class="row space-iklan mt-3">
+                        <div class="col d-flex justify-content-center align-self-center">
+                            <img src="assets/img/iklan.png">
+                        </div>
+                    </div> -->
+                    <div class="sinopsis-streaming">
+                        <h6>CHATROOM</h6>
+                        <div class="chat-script-desktop">
+                            <script id="cid0020000234317034312" data-cfasync="false" async src="http://st.chatango.com/js/gz/emb.js" style="width: 100%;height: 350px;">{"handle":"nime-indo","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -274,7 +318,14 @@
         function BtnPlayVideo(){
             $("#BtnPlayVideo").hide();
             $('#PlayVideoShow').toggle('show');
+            $('#videoPlay').attr('src', 'https://uservideo.xyz/file/nanime.bnha.s4.05.480p.mp4?embed=true&autoplay=true');
             // document.getElementById("PlayVideoShow").style.display = "block";
+        }
+        function changeServer(src){
+            $("#BtnPlayVideo").hide();
+            $('#PlayVideoShow').toggle('show');
+            $('#videoPlay').attr('src', src);
+            // alert("hello");
         }
     </script>
 

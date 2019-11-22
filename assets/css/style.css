@@ -266,6 +266,7 @@ a.page-link {
     margin-right: 13%;
     padding-top: 3%;
     text-align: center;
+    margin-top: 3rem!important;
     
 }
 
@@ -325,7 +326,8 @@ a.page-link {
 
 .bot-icon {
     margin-top: -50px;
-    padding-right: 14px;
+    padding-top: 3%;
+    padding-right: 7%;
     
 }
 
@@ -465,6 +467,7 @@ footer p {
         margin-right: 13%;
         padding-top: 3%;
         text-align: center;
+        margin-top: 3rem!important;
         
     }
     .sinopsis-streaming{
@@ -532,6 +535,7 @@ footer p {
         margin-right: -43px;
         padding-top: 3%;
         text-align: center;
+        margin-top: 3rem!important;
         
     }
     .sinopsis-streaming{

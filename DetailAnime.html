@@ -97,35 +97,47 @@
                         
                         <!-- Baris 1 -->
                         <div class="row ">
-                            <div class="col-6 col-md-4 col-sm-6 col-lg-3 anime-inner">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-4 anime-inner">
                                 <img src="assets/img/anime/p1.jpg" alt="">
-                                <div class="text-episode">
-                                    <h6>Ep 01</h6>
-                                </div>
-                                <div class="judul-anime">
-                                    <p>Heading</p>
-                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6 col-lg-8 detail-anime">
+                                <h5>Judul Anime</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum natus mollitia nihil repudiandae a eligendi assumenda quas? Dolore nihil enim nam, repellendus dolorem quo debitis hic aliquam voluptas distinctio vero.</p>
+                                
+                                
                             </div>
 
                         </div>
-                        <div class="row  d-flex justify-content-center">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <div class="row  ">
+                            <div class="col-md-12 col-lg-4">
+                                <div class="genre-background">
+                                    <p>Genre : Action-Comedy-School-Shounen-Super-Power</p>
+                                    <p>Rating: 8.24</p>
+                                    <p>Votes: 31101</p>
+                                    <p>Status: Ongoing</p>
+                                    <p>Total Episode: 25</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                                <table class="table-bordered border-list-episode">
+                                    <thead>
+                                       <tr>
+                                         <th scope="col">#</th>
+                                         <th scope="col">Judul Episode</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td onclick="StreamPage()"><a href="" onMouseOver="this.style.color='rgb(252, 189, 63)'" onMouseOut="this.style.color='wheat'">Episode 1</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td onclick="StreamPage()"><a href="" onMouseOver="this.style.color='rgb(252, 189, 63)'" onMouseOut="this.style.color='wheat'">Episode 2</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,10 +146,10 @@
                     <div class="row">
                         <div class="col text-right">
                             <div class="ico-sosmed ">
-                                <a href="" class="ml-3"><i class="fab fa-instagram fa-2x"></i></a>
+                                <!-- <a href="" class="ml-3"><i class="fab fa-instagram fa-2x"></i></a>
                                 <a href="" class="ml-3"><i class="fab fa-facebook fa-2x"></i></a>
                                 <a href="" class="ml-3"><i class="fab fa-twitter fa-2x"></i></a>
-                                <a href="" class="ml-3"><i class="fab fa-youtube fa-2x"></i></a>
+                                <a href="" class="ml-3"><i class="fab fa-youtube fa-2x"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -267,6 +279,12 @@
     <!-- Font awesome JS -->
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        function StreamPage(){
+            alert("hallo");
+        }
+    
+    </script>
     <script>
             var owl = $('.owl-carousel');
              owl.owlCarousel({

@@ -11,6 +11,44 @@ body {
     background-color: #171717;
 }
 
+.input-text{
+    width:41%;
+}
+.input-text-area{
+    width:80%;
+}
+.detail-anime p{
+    font-size: 12px;
+}
+.border-list-episode{
+    border: 19px solid #2e3035 !important;
+    color: wheat;
+    width: 100%;
+}
+.border-list-episode td,
+.border-list-episode th{
+    border: 5px solid #2e3035 !important;   
+    padding: 2%;
+    
+}
+.border-list-episode td{
+    cursor: pointer;
+}
+.border-list-episode td:hover { 
+    background: #8f8f8f; 
+ }
+ 
+.genre-background{
+    background: #2e3035 ;
+    padding: 9%;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.genre-background p{
+    margin-bottom: 6px;
+}
+
+
 .btn-list-episode{
     padding: 1% 2% 1% 2%;
     margin-bottom: 3%;
@@ -390,6 +428,9 @@ footer p {
         padding-right: 21% !important;
         max-width: 0% !important;
     }
+    .detail-anime p{
+        font-size: 12px;
+    }
     
         
   }
@@ -431,6 +472,9 @@ footer p {
         padding-left: 0% !important;
         padding-right: 21% !important;
         max-width: 0% !important;
+    }
+    .detail-anime p{
+        font-size: 12px;
     }
     
   }
@@ -490,6 +534,9 @@ footer p {
         padding-left: 1% !important;
         padding-right: 20% !important;
         max-width: 0% !important;
+    }
+    .detail-anime p{
+        font-size: 12px;
     }
     
   }
@@ -557,6 +604,9 @@ footer p {
         padding-left: 1% !important;
         padding-right: 20% !important;
         max-width: 0% !important;
+    }
+    .detail-anime p{
+        font-size: 12px;
     }
     
   }
@@ -631,6 +681,9 @@ footer p {
         padding-left: 1% !important;
         padding-right: 12% !important;
         max-width: 0% !important;
+    }
+    .detail-anime p{
+        font-size: 12px;
     }
     
   }
@@ -713,6 +766,9 @@ footer p {
         padding-right: 12% !important;
         max-width: 0% !important;
     }
+    .detail-anime p{
+        font-size: 12px;
+    }
     
   }
   
@@ -789,6 +845,9 @@ footer p {
             padding-right: 12% !important;
             max-width: 0% !important;
         }
+        .detail-anime p{
+            font-size: 12px;
+        }
         
     }
     @media (max-width: 400px) {
@@ -862,6 +921,9 @@ footer p {
             padding-right: 12% !important;
             max-width: 0% !important;
         }
+        .detail-anime p{
+            font-size: 12px;
+        }
     
   }
   @media (max-width: 390px) {
@@ -934,6 +996,15 @@ footer p {
         padding-left: 2% !important;
         padding-right: 12% !important;
         max-width: 0% !important;
+    }
+    .anime-inner{
+        padding-right: 0px !important;
+    }
+    .detail-anime{
+        padding-left: 6px !important;
+    }
+    .detail-anime p{
+        font-size: 11px;
     }
     
 

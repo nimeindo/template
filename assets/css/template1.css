@@ -301,7 +301,7 @@ a.page-link {
 
 .chat-room {
     background-color: #424140;
-    margin-right: 13%;
+    margin-right: 0%;
     padding-top: 3%;
     text-align: center;
     margin-top: 5rem!important;
@@ -390,6 +390,7 @@ footer p {
 }
 
   @media (min-width: 1269px) {
+    
     
     .judul-anime {
         position: absolute;
@@ -485,7 +486,9 @@ footer p {
   */
   
   @media (min-width: 768px) and (max-width: 1024px) {
-    
+    .container{
+        max-width: 943px !important;
+    }
     .carousel-heider{
         width: 100%;
         padding: 20px 10px 5px 5px;
@@ -508,7 +511,7 @@ footer p {
     }
     .chat-room {
         background-color: #424140;
-        margin-right: 13%;
+        margin-right: 0%;
         padding-top: 3%;
         text-align: center;
         margin-top: 5rem!important;
@@ -579,7 +582,7 @@ footer p {
     }
     .chat-room {
         background-color: #424140;
-        margin-right: -43px;
+        margin-right: 1%;
         padding-top: 3%;
         text-align: center;
         margin-top: 5rem!important;
@@ -685,6 +688,9 @@ footer p {
     .detail-anime p{
         font-size: 12px;
     }
+    .container{
+        max-width: 661px !important;
+    }
     
   }
   /* 
@@ -698,6 +704,7 @@ footer p {
     /* .lorem-footer{
         display: none;
     } */
+    
     .bot-icon {
         margin-top: 0px;
         padding-right: 14px;
@@ -769,6 +776,9 @@ footer p {
     .detail-anime p{
         font-size: 12px;
     }
+    .container{
+        max-width: 661px !important;
+    }
     
   }
   
@@ -777,6 +787,7 @@ footer p {
         /* .lorem-footer{
             display: none;
         } */
+        
         .chat-room {
             display: none;
         }
